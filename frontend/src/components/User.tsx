@@ -8,11 +8,11 @@ const User: React.FC<Props> = ({ user }) => {
   return (
     <div>
       <p>
-        <strong>Nome: </strong>
+        <strong>- Nome: </strong>
         {user.name}
       </p>
       <p>
-        <strong>Email: </strong>
+        <strong>- Email: </strong>
         {user.email}
       </p>
     </div>
