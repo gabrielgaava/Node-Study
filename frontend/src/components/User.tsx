@@ -7,11 +7,14 @@ interface Props {
 const User: React.FC<Props> = ({ user }) => {
   return (
     <div>
-      <strong>{user.name}</strong>
-      <br />
-      <strong>{user.email}</strong>
-      <br />
-      <br />
+      <p>
+        <strong>Nome: </strong>
+        {user.name}
+      </p>
+      <p>
+        <strong>Email: </strong>
+        {user.email}
+      </p>
     </div>
   );
 };
